@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://optiohire.com/sitemap.xml
+Sitemap: https://website.optiohire.com/sitemap.xml

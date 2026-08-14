@@ -48,8 +48,8 @@ def chip(icon):
     return f'<div class="icon-chip" aria-hidden="true">{ICONS[icon]}</div>'
 
 
-OG_IMAGE = "https://optiohire.com/assets/og/og-default.jpg"
-SITE = "https://optiohire.com"
+SITE = "https://website.optiohire.com"
+OG_IMAGE = f"{SITE}/assets/og/og-default.jpg"
 DEMO = "contact.html?type=Demo%20Request"
 SALES = "contact.html?type=Talk%20to%20Sales"
 # CASA: paste real IDs before launch. Empty values mean tags are reserved but not loaded.
@@ -196,6 +196,7 @@ def footer(prefix=""):
       <a href="{prefix}privacy.html">Privacy Policy</a>
       <a href="{prefix}terms.html">Terms of Service</a>
       <a href="{prefix}security.html">Security &amp; Compliance</a>
+      <a href="{SITE}/sitemap.xml">Sitemap</a>
       <button type="button" class="linkish" data-cookie-settings>Cookie settings</button>
     </nav>
     </div>
