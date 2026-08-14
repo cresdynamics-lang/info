@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-hidden="true">
+  <rect width="640" height="360" fill="#0D0D0F"/>
+  <rect x="56" y="72" width="240" height="216" rx="14" fill="#16161C" stroke="#A9B4C2" stroke-opacity=".2"/>
+  <rect x="80" y="104" width="88" height="10" rx="5" fill="#A9B4C2" fill-opacity=".25"/>
+  <rect x="80" y="132" width="192" height="8" rx="4" fill="#A9B4C2" fill-opacity=".14"/>
+  <rect x="80" y="156" width="160" height="8" rx="4" fill="#A9B4C2" fill-opacity=".12"/>
+  <rect x="80" y="180" width="176" height="8" rx="4" fill="#A9B4C2" fill-opacity=".1"/>
+  <text x="176" y="250" text-anchor="middle" fill="#A9B4C2" font-size="13" font-family="Inter, sans-serif" opacity=".55">Keyword filter</text>
+  <rect x="344" y="72" width="240" height="216" rx="14" fill="#16161C" stroke="#E8916B" stroke-opacity=".55"/>
+  <rect x="368" y="108" width="192" height="36" rx="8" fill="#E8916B" fill-opacity=".85"/>
+  <rect x="368" y="156" width="192" height="36" rx="8" fill="#E8916B" fill-opacity=".45"/>
+  <rect x="368" y="204" width="192" height="36" rx="8" fill="#E8916B" fill-opacity=".22"/>
+</svg>
