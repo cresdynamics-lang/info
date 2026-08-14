@@ -177,7 +177,7 @@
           obs.unobserve(entry.target);
         });
       },
-      { threshold: 0.4 }
+      { threshold: 0.2, rootMargin: "0px 0px -8% 0px" }
     );
     counters.forEach((el) => cio.observe(el));
   }

@@ -56,6 +56,12 @@ SALES = "contact.html?type=Talk%20to%20Sales"
 GA_MEASUREMENT_ID = ""  # e.g. G-XXXXXXXXXX
 GSC_VERIFICATION = ""  # Google Search Console meta content
 
+# Homepage teal-band count-up targets.
+STAT_APPLICATIONS = 12400
+STAT_SHORTLIST_HOURS = 4
+STAT_FASTER_X = 3
+STAT_AUDIT_PCT = 100
+
 
 def logo_wall(count=8, label="Partner institution", blurbs=None):
     """Reusable partner logo grid - shared by /for-institutions and /partners."""
@@ -372,19 +378,19 @@ HOME = f"""
   <div class="wrap">
     <div class="stats-grid">
       <div class="stat-card">
-        <div class="stat-value" data-count="0" data-suffix="+">0+</div>
+        <div class="stat-value" data-count="{STAT_APPLICATIONS}" data-suffix="+">0+</div>
         <p class="stat-label">Applications screened</p>
       </div>
       <div class="stat-card">
-        <div class="stat-value" data-count="0" data-suffix="h">0h</div>
+        <div class="stat-value" data-count="{STAT_SHORTLIST_HOURS}" data-suffix="h">0h</div>
         <p class="stat-label">Avg. time to shortlist</p>
       </div>
       <div class="stat-card">
-        <div class="stat-value" data-count="0" data-suffix="x">0x</div>
+        <div class="stat-value" data-count="{STAT_FASTER_X}" data-suffix="x">0x</div>
         <p class="stat-label">Faster hiring cycles</p>
       </div>
       <div class="stat-card">
-        <div class="stat-value" data-count="0" data-suffix="%">0%</div>
+        <div class="stat-value" data-count="{STAT_AUDIT_PCT}" data-suffix="%">0%</div>
         <p class="stat-label">Decision audit trail</p>
       </div>
     </div>
@@ -504,7 +510,7 @@ HOW = f"""
   <div class="wrap">
     <div class="stats-grid stats-grid-3 stats-grid--hero">
       <div class="stat-card">
-        <div class="stat-value" data-count="0" data-suffix="x">0x</div>
+        <div class="stat-value" data-count="{STAT_FASTER_X}" data-suffix="x">0x</div>
         <p class="stat-label">Quicker shortlisting, even on high-volume roles</p>
       </div>
       <div class="stat-card">
@@ -603,7 +609,7 @@ HOW = f"""
     </div>
     <div class="stats-grid stats-grid-3">
       <div class="stat-card">
-        <div class="stat-value" data-count="0" data-suffix="x">0x</div>
+        <div class="stat-value" data-count="{STAT_FASTER_X}" data-suffix="x">0x</div>
         <p class="stat-label">Faster hiring process</p>
       </div>
       <div class="stat-card">
